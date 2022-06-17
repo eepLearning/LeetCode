@@ -1,4 +1,8 @@
 #Binary Search
+#Insert할 Position을 찾는 문제
+#난이도: 중
+#bisect solution
+#return bisect.bisect_left(nums,target)
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         
