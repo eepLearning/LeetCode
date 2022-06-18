@@ -4,7 +4,7 @@ class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
-        
+        """
         nums2 = list(nums)
         start = 0 
         end = len(nums2) -1 
@@ -20,12 +20,8 @@ class Solution:
             
         for i in range(len(nums)):
             nums[i] =nums2[i]
-        """
-        start = 0
-        for i in range(len(nums)):
-            if nums[i] != 0:
-                nums[i],nums[start] = nums[start],nums[i]
-                start += 1
+
+
             
             
 '''
