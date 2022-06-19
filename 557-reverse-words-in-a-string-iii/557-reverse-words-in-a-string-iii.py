@@ -2,7 +2,7 @@
 
 
 class Solution:
-    
+    '''try1
     def reverseWords(self, s: str) -> str:
         answer = []
         start = 0
@@ -17,6 +17,10 @@ class Solution:
                 
             zero = zero + 1
         return ' '.join(answer)
+        '''
+    def reverseWords(self, s: str) -> str:
+        return ' '.join([ss[::-1] for ss in s.split(" ")])
+
                 
             
         
