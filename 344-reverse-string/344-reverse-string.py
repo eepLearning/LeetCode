@@ -9,6 +9,8 @@ class Solution:
         345 ms / 18.4 MB 
         s.reverse()
         '''
+        
+        #two pointers / 209 ms / 18.5 MB
         start = 0
         end = len(s) -1 
         while start < end:
@@ -16,4 +18,3 @@ class Solution:
             end -= 1
             start += 1
             
-        
