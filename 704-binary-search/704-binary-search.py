@@ -1,4 +1,5 @@
 #Binary Search
+# check : 2
 #Binary Search 알고리즘은 정렬된 배열에서 타켓을 찾는 대표적인 로그 시간(logn) 알고리즘이다
 # UP & Down 게임처럼 탐색이 진행될 때마다 범위를 절반씩 좁혀가면서 탐색한다. 
 
