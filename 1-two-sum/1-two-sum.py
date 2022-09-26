@@ -1,4 +1,5 @@
 #Hash Table
+# check : 2
 '''
 In order to improve the time complexity, an efficient method for checking whether a complement exists in an array is needed. If there is a payoff, it is necessary to search the corresponding index. The best way to keep a mapping of each element of an array to an index is a hash table.
 We reduce the search time from O(n) to O(1) by trading space for speed. Hash tables are built for exactly this purpose, and support fast lookups of near constant time. The reason I said "nearly" is that if collisions happen, the search can be bad in O(n) time. However, if the hash function is chosen carefully, the search of the hash table is O(1) partitioned.
@@ -18,7 +19,6 @@ class Solution:
             else: 
                 return hash_dict[nums[i]],i
                 
-            
 
         
         
