@@ -1,3 +1,6 @@
+#Binary Search
+# check : 2
+
 # The isBadVersion API is already defined for you.
 # def isBadVersion(version: int) -> bool:
 
